@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+nav {
+    align-items: center;
+    background-color: #6a524e;
+    display: flex;
+    height: 60px;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: #f6f6ee;
+    font-family: 'Russo One', sans-serif;;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+header {
+    background-image: url("images/banner1.jpg");
+    height: 600px;
+}
