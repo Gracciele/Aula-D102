@@ -19,5 +19,39 @@ nav a {
 
 header {
     background-image: url("images/banner1.jpg");
-    height: 400px;
+    background-size: cover;
+    height: 520px;
+}
+
+section {
+    background-color: #f3ddb4;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-evenly;
+}
+
+div {
+    text-align: center;
+    width: 40%;
+}
+
+div p {
+    color: #403e3a;
+    text-align: justify;
+}
+
+div li {
+    color: #403e3a;
+}
+
+div h2 {
+    color: #d00716;
+}
+
+div ul {
+    list-style-image: url("")
+}
+
+ul li:nth-child(even) {
+    color: #d00716;
 }
