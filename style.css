@@ -12,7 +12,7 @@ nav {
 
 nav a {
     color: #f6f6ee;
-    font-family: 'Russo One', sans-serif;;
+    font-family: 'Russo One', sans-serif;
     font-size: 28px;
     text-decoration: none;
 }
@@ -48,10 +48,40 @@ div h2 {
     color: #d00716;
 }
 
-div ul {
+/*div ul {
     list-style-image: url("")
 }
+*/
 
 ul li:nth-child(even) {
     color: #d00716;
+}
+
+h3 {
+    color: #d00716;
+    font-family: 'Russo One', sans-serif;
+    font-size: 22pt;
+}
+
+input::placeholder{
+    color: #403e3a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input:focus {
+    background-color: #f6f6ee;
+    width: 150px;
+    height: 25px;
+}
+
+footer div {
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
